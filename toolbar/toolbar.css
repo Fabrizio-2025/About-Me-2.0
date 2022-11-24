@@ -1,0 +1,18 @@
+.my-fixed-item {
+    display: flex;
+    position: fixed;
+    min-height: 120px;
+    width: 252px;
+    text-align: center;
+    word-wrap: break-word;
+    background-color: aquamarine;
+    top: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-test{
+    border: 10px;
+    
+}

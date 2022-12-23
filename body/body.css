@@ -1,0 +1,112 @@
+.body-hdr{
+    background-color: #386987;/*#0e6dac;*/
+    margin-top: 100px;
+    width: 95%;
+    height: 87vh;
+    border: #064369 8px dotted;
+    margin-left: 2.5%;
+}
+
+.body-main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    /*padding-left: 8.8vh;*/
+}
+
+.body-description{
+    font-family: 'Nerko One', cursive;
+    width: 75vh;
+    height: 40vh;
+    margin-top: 3vh;
+    color: white;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 9px;
+    
+    
+}
+.body-imagen{
+    
+    width: 26vh;
+    height: 40vh;
+    margin-top: 3vh;
+    text-align: center;
+    
+    
+}
+
+.body-empty-div{
+    
+    width: 100px;
+    height: 40vh;
+    margin-top: 3vh;
+    
+}
+
+.body-empty-divR{
+    width: 20vh;
+    height: 40vh;
+    margin-top: 3vh;
+    
+}
+
+.body-empty-divL{
+    width: 20vh;
+    height: 40vh;
+    margin-top: 3vh;
+    
+}
+
+.body-minfooter{
+    
+    height: 40vh;
+    width: 173vh;
+    margin-top: 10px;
+    margin-left: 8.8vh;
+    color: white;
+}
+
+.imagen-front{
+    width: 26vh;
+    height: 40vh;
+
+}
+
+.imagen-back{
+    width: 26vh;
+    height: 40vh;
+}
+
+.imagen-me{
+    width: 26vh;
+    height: 40vh;
+    
+}
+
+.body-main .body-description h1{
+    font-size: 1cm;
+}
+.body-main .body-description {
+    font-size: 3.5ch;
+}
+
+.body-main .body-description a {
+    color: red;
+    
+}
+
+.body-main .body-description a:hover{
+    color:white;
+    
+}
+
+.body-minfooter h1{
+    font-size: 0.8cm;
+}
+
+.body-minfooter ul li{
+    font-size: 0.6cm;
+    list-style: none;
+}

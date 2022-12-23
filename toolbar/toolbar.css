@@ -1,13 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
-
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Nunito', sans-serif;
-    font-size: 20px;
-} 
-
 .my-fixed-item {
     display: flex;
     position: fixed;
@@ -19,14 +9,12 @@
     width: 100%;
     align-items: center;
     justify-content: center;
-    font-family: 'Nerko One', cursive;
-    
     font-size: 35px;
     
 }
 
 .header{
-    background-color: #1b3039;
+    background-color: #064369;
     display: flex;
     justify-content: space-between;
     align-items: center;

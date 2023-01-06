@@ -85,11 +85,27 @@
     
 }
 
+.socialnetworks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.linkedin{
+    color: #15547b;
+}
+
+.github{
+    color: #f0f6fc;
+}
+
 .body-main .body-description h1{
-    font-size: 1cm;
+    font-size: 170%;
+    
 }
 .body-main .body-description {
-    font-size: 3.5ch;
+    font-size: 160%;
 }
 
 .body-main .body-description a {
@@ -99,7 +115,7 @@
 
 .body-main .body-description a:hover{
     color:white;
-    
+    transform: scale(.1);
 }
 
 .body-minfooter h1{
@@ -107,6 +123,20 @@
 }
 
 .body-minfooter ul li{
-    font-size: 0.6cm;
+    font-size: 160%;
     list-style: none;
+}
+
+.socialnetworks a{
+    font-size: 0.6cm;
+}
+
+.socialnetworks .github:hover{
+    color: grey;
+    transform: scale(1.1);
+}
+
+.socialnetworks .linkedin:hover{
+    color: #f0f6fc;
+    transform: scale(1.1);
 }

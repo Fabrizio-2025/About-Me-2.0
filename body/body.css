@@ -1,142 +1,113 @@
-.body-hdr{
-    background-color: #386987;/*#0e6dac;*/
+.body-hdr {
+    background-color: #386987;
+    /*#0e6dac;*/
     margin-top: 100px;
-    width: 95%;
-    height: 87vh;
+    width: 97.5%;
+    height: 100%;
     border: #064369 8px dotted;
-    margin-left: 2.5%;
+    margin-left: calc(1.5%);
 }
 
-.body-main{
+.body-main {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
-    
-    /*padding-left: 8.8vh;*/
 }
 
-.body-description{
+.body-description {
     font-family: 'Nerko One', cursive;
-    width: 75vh;
     height: 40vh;
-    margin-top: 3vh;
+    width: 75vh;
     color: white;
     text-align: left;
     padding-top: 10px;
     padding-left: 9px;
-    
-    
+    text-indent: -2px;
+    font-size: 20px;
 }
-.body-imagen{
-    
+
+.body-imagen {
     width: 26vh;
     height: 40vh;
     margin-top: 3vh;
-    text-align: center;
-    
-    
 }
 
-.body-empty-div{
-    
+.body-empty-div {
     width: 100px;
     height: 40vh;
     margin-top: 3vh;
-    
 }
 
-.body-empty-divR{
-    width: 20vh;
+.body-empty-divR {
     height: 40vh;
     margin-top: 3vh;
-    
 }
 
-.body-empty-divL{
-    width: 20vh;
+.body-empty-divL {
     height: 40vh;
     margin-top: 3vh;
-    
 }
 
-.body-minfooter{
-    
+.body-minfooter {
     height: 40vh;
     width: 173vh;
-    margin-top: 10px;
-    margin-left: 8.8vh;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-left: 45px;
     color: white;
+    font-size: 20px;
+    ;
 }
 
-.imagen-front{
+.imagen-front {
+    width: 26vh;
+    height: 40vh;
+}
+
+.imagen-back {
+    width: 26vh;
+    height: 40vh;
+}
+
+.imagen-me {
     width: 26vh;
     height: 40vh;
 
 }
 
-.imagen-back{
-    width: 26vh;
-    height: 40vh;
-}
-
-.imagen-me{
-    width: 26vh;
-    height: 40vh;
-    
-}
-
-.socialnetworks{
+.socialnetworks {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    
+    justify-content: space-around;
 }
 
-.linkedin{
+.linkedin {
     color: #15547b;
 }
 
-.github{
+.github {
     color: #f0f6fc;
-}
-
-.body-main .body-description h1{
-    font-size: 170%;
-    
-}
-.body-main .body-description {
-    font-size: 160%;
 }
 
 .body-main .body-description a {
     color: red;
-    
 }
 
-.body-main .body-description a:hover{
-    color:white;
+.body-main .body-description a:hover {
+    color: white;
     transform: scale(.1);
 }
 
-.body-minfooter h1{
-    font-size: 0.8cm;
-}
-
-.body-minfooter ul li{
-    font-size: 160%;
-    list-style: none;
-}
-
-.socialnetworks a{
+.socialnetworks a {
     font-size: 0.6cm;
 }
 
-.socialnetworks .github:hover{
+.socialnetworks .github:hover {
     color: grey;
     transform: scale(1.1);
 }
 
-.socialnetworks .linkedin:hover{
+.socialnetworks .linkedin:hover {
     color: #f0f6fc;
     transform: scale(1.1);
 }

@@ -24,6 +24,7 @@
     padding-left: 9px;
     text-indent: -2px;
     font-size: 20px;
+    margin-bottom: 20px;
 }
 
 .body-imagen {
@@ -45,7 +46,7 @@
 
 .body-empty-divL {
     height: 40vh;
-    margin-top: 0vh;
+    margin-top: 3vh;
 }
 
 .body-minfooter {
@@ -71,7 +72,7 @@
 
 .imagen-me {
     width: 26vh;
-    height: 40vh;
+    height: 42vh;
 
 }
 

@@ -45,7 +45,7 @@
 
 .body-empty-divL {
     height: 40vh;
-    margin-top: 3vh;
+    margin-top: 0vh;
 }
 
 .body-minfooter {
@@ -60,13 +60,13 @@
 }
 
 .imagen-front {
-    width: 26vh;
-    height: 40vh;
+    width: 36vh;
+    height: 42vh;
 }
 
 .imagen-back {
-    width: 26vh;
-    height: 40vh;
+    width: 36vh;
+    height: 42vh;
 }
 
 .imagen-me {

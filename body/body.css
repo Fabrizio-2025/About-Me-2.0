@@ -6,6 +6,7 @@
     height: 100%;
     border: #064369 8px dotted;
     margin-left: calc(1.5%);
+    border-radius: 15px;
 }
 
 .body-main {
@@ -15,7 +16,6 @@
 }
 
 .body-description {
-    font-family: 'Nerko One', cursive;
     height: 40vh;
     width: 75vh;
     color: white;
@@ -47,6 +47,7 @@
 .body-empty-divL {
     height: 40vh;
     margin-top: 3vh;
+    border-radius: 15px;
 }
 
 .body-minfooter {
@@ -63,17 +64,19 @@
 .imagen-front {
     width: 36vh;
     height: 42vh;
+    border-radius: 15px;
 }
 
 .imagen-back {
     width: 36vh;
     height: 42vh;
+    border-radius: 15px;
 }
 
 .imagen-me {
     width: 26vh;
     height: 42vh;
-
+    border-radius: 15px;
 }
 
 .socialnetworks {
@@ -96,7 +99,7 @@
 
 .body-main .body-description a:hover {
     color: white;
-    transform: scale(.1);
+    transform: scale(1.1);
 }
 
 .socialnetworks a {
@@ -110,5 +113,10 @@
 
 .socialnetworks .linkedin:hover {
     color: #f0f6fc;
+    transform: scale(1.1);
+}
+
+.body-minfooter ul a:hover  {
+    color: #15547b;
     transform: scale(1.1);
 }
